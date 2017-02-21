@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"Likeme Bluetooth "</string>
+    <string name="analytics_project_id">xxxxxxxxx</string>
+
+    <string name="checking">Checking</string>
+    <string name="success_title">Your phone supports bluetooth peripheral</string>
+    <string name="success_hint">and you can operate in beacon mode</string>
+    <string name="not_support_title">Your phone does not support bluetooth peripheral</string>
+    <string name="not_support_hint">and may not work in beacon mode</string>
+
+    <string name="setup_title">Please enable your bluetooth</string>
+    <string name="setup_hint">we can not check peripheral mode without enabled bluetooth</string>
+    <string name="allow_analytics">Allow Analytics to send some info</string>
+</resources>

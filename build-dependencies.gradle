@@ -1,0 +1,4 @@
+dependencies {
+    testCompile "junit:junit:$JUNIT_VERSION"
+    compile "com.jakewharton.timber:timber:$TIMBER_VERSION"
+}

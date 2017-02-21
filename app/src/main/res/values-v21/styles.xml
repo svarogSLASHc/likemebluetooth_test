@@ -1,0 +1,13 @@
+<resources>
+    <!-- extend one of the Theme.AppCompat themes -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/app_main_blue</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/app_main_blue_PrimaryDark</item>
+
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style>
+
+</resources>

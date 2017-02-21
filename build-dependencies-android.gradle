@@ -1,0 +1,23 @@
+dependencies {
+    compile "com.android.support:support-v4:$ANDROID_SUPPORT_VERSION"
+    compile "com.android.support:design:$ANDROID_SUPPORT_VERSION"
+    compile "com.jakewharton:butterknife:$BUTTERKNIFE_VERSION"
+
+    compile "com.annimon:stream:$STREAM_API_VERSION"
+    compile "com.google.guava:guava:$GUAVA_VERSION"
+    compile "com.google.dagger:dagger:$DAGGER_VERSION"
+    apt "com.google.dagger:dagger-compiler:$DAGGER_VERSION"
+
+    compile "com.github.frankiesardo:auto-parcel:$AUTO_PARCEL_VERSION"
+    apt "com.github.frankiesardo:auto-parcel-processor:$AUTO_PARCEL_VERSION"
+
+    compile "io.reactivex:rxjava:$RXJAVA"
+    compile "io.reactivex:rxjava-debug:$RXJAVA_DEBUG"
+    compile "io.reactivex:rxandroid:$RXJAVA_ANDROID"
+    compile "com.jakewharton.rxbinding:rxbinding:$RXJAVA_BINDING"
+    compile "com.jakewharton.rxbinding:rxbinding-appcompat-v7:$RXJAVA_BINDING"
+    compile "com.jakewharton.rxbinding:rxbinding-support-v4:$RXJAVA_BINDING"
+    compile "com.jakewharton.rxbinding:rxbinding-design:$RXJAVA_BINDING"
+
+    compile "com.f2prateek.rx.preferences:rx-preferences:$RX_PREFERENCES"
+}

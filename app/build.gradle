@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+apply from: '../build-common.gradle'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    defaultConfig {
+        applicationId "com.cs.liker.bluetooth.test"
+        versionCode 3
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+}
+
+dependencies {
+    compile project(':altbeacon')
+    compile project(':android-base')
+    compile "com.google.android.gms:play-services-analytics:$GOOGLE_PLAY_SERVICES_VERSION"
+}

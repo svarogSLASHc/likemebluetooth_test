@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "440259974190",
+    "project_id": "likemebluetooth"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440259974190:android:f67cf77101042d7a",
+        "android_client_info": {
+          "package_name": "com.cs.liker.bluetooth.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUuXR76V4K11wV7vG83etJrvOR7AkJpx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-85048749-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

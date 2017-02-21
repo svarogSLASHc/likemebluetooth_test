@@ -1,0 +1,6 @@
+apply from: '../build-library.gradle'
+
+dependencies {
+    compile "com.squareup.flow:flow:$FLOW_VERSION"
+    compile "com.f2prateek.rx.receivers:rx-receivers:$RX_RECEIVER"
+}

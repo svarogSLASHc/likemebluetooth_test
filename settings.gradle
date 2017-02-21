@@ -1,0 +1,1 @@
+include ':app', ':altbeacon', ':android-base'

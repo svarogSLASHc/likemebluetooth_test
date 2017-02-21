@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@color/app_main_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/bluetooth_size"
+            android:layout_height="@dimen/bluetooth_size"
+            android:foregroundGravity="bottom"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_vector_checkmark_150dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/center_View_SuccessView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:layout_width="@dimen/bluetooth_size"
+            android:layout_height="@dimen/bluetooth_size"
+            android:layout_above="@id/center_View_SuccessView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/bluetooth_bottom_margin"
+            android:tint="@color/app_main_blue_light"
+            app:srcCompat="@drawable/ic_vector_bluetooth_150dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_TextView_NotSupportedView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/success_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/hint_top_margin"
+                android:text="@string/success_hint"
+                android:textColor="@color/white_hint"
+                android:textSize="@dimen/hint_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/analyticsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/analyticsCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allow_analytics"
+                android:textColor="@color/white_hint"
+                android:textSize="@dimen/hint_size" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
